@@ -1,0 +1,13 @@
+HTML
+    => Create controls for web page.
+, CSS.
+    => Style controls.
+    => id, name, class.
+
+Bootsrap => css libraries.
+    => prebuilt css classes.
+    => responsive web design. (mobile, desktop, tablets)=> breakpoints, media queries.
+    => grid system to create responsive design.
+
+    
+// NavBar, Forms, Tables, Modal, Grid Systems.

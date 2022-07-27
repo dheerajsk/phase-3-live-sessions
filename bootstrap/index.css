@@ -1,0 +1,7 @@
+
+
+.table-primary{
+    --bs-table-color: white;
+    --bs-table-bg: #712cf9;
+    font-size: large;
+}
