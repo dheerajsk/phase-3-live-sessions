@@ -1,0 +1,14 @@
+
+
+.img_cover{
+
+}
+
+.div_cover{
+    background-size: cover;
+    height: 280px;
+    width: 92%;
+    margin: 2% 4%;
+    overflow: hidden;
+    background-image: url("https://thumbs.dreamstime.com/z/healthy-food-selection-healthy-food-selection-fruits-vegetables-seeds-superfood-cereals-gray-background-121936825.jpg");
+}
