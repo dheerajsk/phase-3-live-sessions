@@ -1,0 +1,47 @@
+1. WHat is React and uses ?
+2. First Project in React.
+3. Project using React.
+    => ToDoList App.
+    => jsonplaceholder
+
+3.1 To display all the todos.
+    1. craete a new component.
+    2. include Bootstrap
+    3. render Bootstrap table 
+    4. render todoList component in APp component.
+        4.1 To call api and get data.
+        4.2 print data on console.
+        4.3 render data in table.
+
+3.2 Create a todo.
+3.3 Delete a todo.
+3.4 Update a todo.
+
+4. Prerequisite:
+    HTML, CSS, Bootstrap, JavaScript
+
+
+
+What is React.
+    => JS => To handle events(html events), send requests to server from client, 
+            and receive response from server and render to client.
+
+    => JS Library.
+        1. Component based architecture.
+            A JavaScript Function
+            1.1 easy to resuse.
+            1.2 easy to update/manage. (SRP)
+            1.3 Easy to test a single component.
+        2. Improves performance using Virtual DOM. (Tree structure)
+        3. Routings feature.
+        4. JSX => To mix JavaScript and html together.
+
+Tools required: NodeJS, npm (node package manager)
+
+npx create-react-app <projectName>
+npm start
+
+npx=> for npm packages, downloads and execute the package.
+create-react-app -> package for react project.
+
+node_modules folder => contains all packages.
