@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function NewTodo() {
   const [id, setID] = useState();
   const [userid, setUserID] = useState();
   const [title, setTitle] = useState("");
   const [isCompleted, setCompleted] = useState(false);
+  const navigate = useNavigate();
 
   function handleFormSubmit(event) {
     console.log("Handling form submit...");
@@ -15,6 +17,17 @@ function NewTodo() {
       completed: isCompleted,
     };
     console.log(newToDo);
+    fetch("https://jsonplaceholder.typicode.com/todos", {
+      method: "POST",
+      body: JSON.stringify(newToDo),
+      headers: new Headers({
+        "Content-Type": "application/json",
+      }),
+    }).then((res) => {
+      console.log(res);
+      console.log("Data is Addded");
+    });
+    navigate("/");
   }
 
   return (
